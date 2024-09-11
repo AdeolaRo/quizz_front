@@ -1,0 +1,10 @@
+<form [formGroup]="user_form" (ngSubmit)="onSubmit()">
+    <p>
+      <label for="name">Pseudo du joueur</label>
+      <input id="name" formControlName="name" />
+    </p>
+
+    <p>
+      <button type="submit">Save</button>
+    </p>
+</form>
